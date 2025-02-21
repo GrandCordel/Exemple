@@ -22,6 +22,7 @@ img.post-picture{
   border-color:green;
   border-width:thick;
   border-radius: 100%;
+  filter: hue-rotate(180deg);
 
 }
 img.post-picture:hover{
@@ -42,7 +43,30 @@ header {
   float: left;
 }
 .mask1 {
-  -webkit-mask-image: url(Chat.png);
-  mask-image: url(Chat.png);
+  mask-image: url(CatShadow.png);
   mask-repeat: no-repeat;
+}
+#jcvd {
+  filter: hue-rotate(180deg);
+  animation-name: colorChanging;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorChanging {
+  0%   {filter: hue-rotate(0deg)}
+  25%  {filter: hue-rotate(90deg)}
+  50%  {filter: hue-rotate(180deg)}
+  75%  {filter: hue-rotate(270deg)}
+  100% {filter: hue-rotate(0deg)}
+}
+iframe {
+  width: 100%;
+}
+b{
+  background: -webkit-linear-gradient(45deg, #00ff00, #FF5050);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+  color:#ff3399;
 }
