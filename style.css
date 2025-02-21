@@ -1,0 +1,43 @@
+body {
+  background-color:Orange;
+  color:blue;
+}
+.post{
+  background-color: black;
+  width: 500px;
+  padding:40px;
+  border:10px solid violet;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left:calc(50% - 250px);
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  display: inline-grid;
+  position: relative;
+  /*float: center;*/
+}
+img.post-picture{
+  width:100%;
+  border-style:dotted;
+  border-color:green;
+  border-width:thick;
+  border-radius: 100%;
+
+}
+img.post-picture:hover{
+  cursor:url("cursor.cur"), auto;
+
+}
+#logo {
+  width: 10%;
+  position: relative;
+  left : 40px;
+}
+header {
+   background: linear-gradient(to right, #66ff33 0%, #ff00ff 100%);
+}
+.side{
+  display: inline-grid;
+  position: relative;
+  float: left;
+}
