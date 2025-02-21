@@ -42,7 +42,7 @@ header {
   float: left;
 }
 .mask1 {
-  -webkit-mask-image: url(CatShadow.png);
-  mask-image: url(CatShadow.png);
+  -webkit-mask-image: url(Chat.png);
+  mask-image: url(Chat.png);
   mask-repeat: no-repeat;
 }
